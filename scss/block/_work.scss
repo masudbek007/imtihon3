@@ -1,0 +1,126 @@
+.work {
+    background: rgb(27, 38, 47);
+    background-image: url(/img/work.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.work_box {
+    display: flex;
+    gap: 56px;
+    padding-top: 100px;
+    padding-bottom: 56px;
+
+}
+
+.work_img {
+    padding-bottom: 44px;
+}
+
+.work_title {
+    color: rgb(251, 252, 254);
+    font-family: DM Serif Display;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.work_text {
+    color: rgb(251, 252, 254);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 16px;
+    opacity: 0.7;
+}
+
+.work_btn {
+    color: rgb(27, 38, 47);
+    border: 1px solid rgb(251, 252, 254);
+    border-radius: 24px;
+    padding: 16px 32px 14px 32px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.work_btn1 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+@media screen and (min-width:768px) {
+    .work_img_block {
+        display: flex;
+        padding-right: 20px;
+
+    }
+
+    .work_img_block1 {
+        display: flex;
+    }
+
+    .work_box {
+        display: inline-block;
+    }
+
+    .work_img {
+        padding-left: 62px;
+        text-align: center;
+    }
+
+    .work_title {
+        font-size: 48px;
+    }
+
+
+
+
+    .work {
+        background: rgb(27, 38, 47);
+        background-image: url(/img/work2.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .work_block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .work_title {
+        text-align: left;
+    }
+
+    .work_text {
+        text-align: left;
+        width: 445px;
+        padding-top: 24px;
+    }
+
+
+    .work_content {
+        padding-top: 100px;
+    }
+
+    .work_box {
+        padding-top: 192px;
+    }
+    .work {
+        background: rgb(27, 38, 47);
+        background-image: url(/img/bitmap2.svg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+}

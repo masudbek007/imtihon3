@@ -1,0 +1,39 @@
+.implament {
+    padding-top: 74px;
+}
+
+.imlament_title {
+    color: rgb(54, 83, 107);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+}
+
+.implament_content {
+    text-align: center;
+}
+
+.implament_text {
+    color: rgb(108, 130, 148);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 24px;
+
+}
+
+@media screen and (min-width:992px) {
+    .implament_content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imlament_title{
+        text-align: left;
+
+    }
+    .implament_text{
+        text-align: left;
+        width: 445px;
+
+    }
+}

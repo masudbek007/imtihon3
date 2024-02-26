@@ -1,0 +1,39 @@
+.personal {
+    padding-top: 80px;
+}
+
+.personal_box {
+    text-align: center;
+}
+
+.personal_title {
+    color: rgb(54, 83, 107);
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 33px;
+}
+
+.personal_text {
+    color: rgb(108, 130, 148);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+
+.personal_img {
+    padding-top: 48px;
+    ;
+}
+
+@media screen and (min-width:768px) {
+    .personal_item {
+        display: flex;
+        gap: 10px;
+    }
+}
+@media screen and(min-width:992px) {
+    .personal_item{
+        gap: 30px;
+    }
+    
+}
